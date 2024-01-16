@@ -24,7 +24,7 @@ The script is pre-configured for 128x21 I2C OLED Display, but can easily be modi
     $ sudo pip3 install --upgrade setuptools
 ```
 
-4. Next, we’re going to install the Adafruit CircuitPython library using the following commands:
+4. Install the Adafruit CircuitPython library using the following commands:
 
 ```shell
     $ cd ~
@@ -51,7 +51,7 @@ The script is pre-configured for 128x21 I2C OLED Display, but can easily be modi
     70: -- -- -- -- -- -- -- --
 ```
 
-6. Next, we need to install the CircuitPython libraries specific to the display. Start by entering the following commands:
+6. Install the CircuitPython libraries specific to the display. Enter the following commands:
 
 ```shell
     $ sudo pip3 install adafruit-circuitpython-ssd1306
@@ -60,17 +60,17 @@ The script is pre-configured for 128x21 I2C OLED Display, but can easily be modi
     $ sudo apt-get install python3-pil
 ```
 
-7. Now we need to download the python script from out github:
+7. Download the python script from github:
 
 ```shell
-    $ git clone https://github.com/mklements/OLED_Stats.git
+    $ git clone https://github.com/peoblouk/oled_stats_128x32.git
 
     $ cd OLED_Stats
     $ cp PixelOperator.ttf ~/PixelOperator.ttf
     $ cp stats.py ~/stats.py
 ```
 
-8. For activating the `crontab` follow the procedure:
+8. For activating on startup do `crontab` follow the procedure:
 
 ```shell
     $ crontab -e
